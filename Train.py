@@ -59,5 +59,6 @@ class TrainGame:
                     self.game.network.saveModel('./models/mymodel')
                     print("SAVE MODEL # {}".format(i))
 
-train_game = TrainGame('./models/mymodel')#model_file='./models/mymodel')
+#train_game = TrainGame('./models/mymodel')#model_file='./models/mymodel')
+train_game = TrainGame()
 train_game.trainWithSelfPlay()
